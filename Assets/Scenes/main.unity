@@ -666,7 +666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &435589273
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1925,7 +1925,7 @@ MonoBehaviour:
   gameOverText: {fileID: 919200876}
   winnerText: {fileID: 614338521}
   restartButton: {fileID: 1902351379}
-  exitButton: {fileID: 0}
+  exitButton: {fileID: 435589274}
   Player1GameObject: {fileID: 7470531878219104980, guid: ce7aeab28dd594696a8fdb2da4cf0bf1, type: 3}
   Player2GameObject: {fileID: 8829056435479903743, guid: 708434f7219a34b55823d434ae5b1bc2, type: 3}
   TLSquare: {fileID: 1453858315}
@@ -2239,7 +2239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1902351378
 RectTransform:
   m_ObjectHideFlags: 0
