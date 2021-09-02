@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TapSquare : MonoBehaviour // INHERITANCE
+public class TapSquare : Square // INHERITANCE
 {
     private GameManager gameManager;
 
@@ -9,9 +9,9 @@ public class TapSquare : MonoBehaviour // INHERITANCE
         gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
     }
 
-    private void OnMouseDown()
+    // POLYMORPHISM
+    protected override void SquareTapped()
     {
-        Debug.Log(gameObject.name);
         gameManager.TappedGameSquare(gameObject);
     }
 }
