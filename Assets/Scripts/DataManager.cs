@@ -1,7 +1,7 @@
 using System.IO;
 using UnityEngine;
 
-public class DataManager : MonoBehaviour
+public class DataManager : MonoBehaviour // INHERITANCE
 {
     // ENCAPSULATION
     public static DataManager Instance { get; private set; }

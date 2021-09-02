@@ -22,7 +22,6 @@ public class MenuUIHandler : MonoBehaviour
             Player1NameInputTextArea.text,
             Player2NameInputTextArea.text
         );
-        // TODO: Load the main scene
-        //SceneManager.LoadScene(1);
+        SceneManager.LoadScene(1);
     }
 }

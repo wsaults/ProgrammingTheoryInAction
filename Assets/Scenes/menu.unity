@@ -1102,8 +1102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b7cc3adf72f14c649166c296f673c75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BestScoreText: {fileID: 604907896}
-  NameInputTextArea: {fileID: 1045018123}
+  Player1NameInputTextArea: {fileID: 1045018123}
+  Player2NameInputTextArea: {fileID: 2140695952}
 --- !u!1 &752903849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1133,9 +1133,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 480dd40a74c024a649e66a502bd9a538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerName: 
-  HighScorePlayerName: 
-  HighScore: 0
 --- !u!4 &752903851
 Transform:
   m_ObjectHideFlags: 0
